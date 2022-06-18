@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+    background-color: #333333;
+    overflow-x: hidden;
+}
+
+header{
+	background-color: #222222;
+    /*width: 100%;*/
+    height: 90px;
+    padding: 15px;
+    text-align: center;
+}
+
+.logo{
+	position: relative;
+    /*bottom: 49px;*/
+    margin-right: 1.3%;
+    display: inline-block;
+}
+
+.menu{
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 30px;
+    position: relative;
+    display: inline-block;
+    bottom: 148px;
+    font-size: 21.6px;
+}
+
+.fa-signal .fa-arrows-rotate{
+    display: none;
+    color: black;
+}
+
+
+.fa-signal:hover .fa-arrows-rotate{
+    display: visible;
+    z-index: 200;
+}
+
+.fa-signal{
+    color: #70d370;
+    z-index: 100;
+}
+
+.red{
+    color: #d01313 !important;
+}
+
+.warning{
+    color: #eeb10b !important;
+}

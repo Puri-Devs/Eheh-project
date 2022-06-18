@@ -1,0 +1,25 @@
+footer{
+    margin-top: 2%;
+    background-color: #222222;
+    height: 50px;
+    padding: 15px;
+    color: white;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.social-media{
+    display: inline-block;
+}
+
+.social-media .fa-brands{
+    font-size: 32px;
+}
+
+.social-media p{
+    display: inline-block;
+    background: white;
+    border-radius: 11px;
+    color: #333333;
+    padding: 8px;
+}
