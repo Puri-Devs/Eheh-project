@@ -1,9 +1,24 @@
 body{
-  background-color: #28D75F;
+  background-color: #4f645e;
   color: white;
+  font-family: arial, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 13%;
 }
 
 h1{
   text-align: center;
   top: 50px;
+}
+
+footer{
+  font-size: 1.8vh;
+}
+
+a:-webkit-any-link {
+  color: white !important;
+  font-weight: bold;
 }
