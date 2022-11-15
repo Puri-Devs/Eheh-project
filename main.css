@@ -21,6 +21,10 @@ h2.project{
     font-weight: 500;
 }
 
+h2.project:hover{
+  cursor: pointer;
+}
+
 footer{
   font-size: 1.8vh;
 }
